@@ -27,21 +27,6 @@ const About = () => {
               Founded in 2020 by a team of Wall Street veterans and AI researchers, we combine deep financial expertise 
               with cutting-edge technology to deliver superior investment performance.
             </p>
-            
-            <div className="about-stats">
-              <div className="stat-item">
-                <h3>50+</h3>
-                <p>Global Clients</p>
-              </div>
-              <div className="stat-item">
-                <h3>$1B+</h3>
-                <p>Assets Under Management</p>
-              </div>
-              <div className="stat-item">
-                <h3>99.9%</h3>
-                <p>System Uptime</p>
-              </div>
-            </div>
           </div>
         </div>
         
