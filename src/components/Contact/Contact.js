@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane, faMapMarkerAlt, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 
@@ -71,40 +71,8 @@ const Contact = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h3>Contact Information</h3>
-            <p>Fill up the form and our Team will get back to you within 24 hours.</p>
-            
-            <div className="contact-details">
-              <div className="contact-item">
-                <div className="contact-icon">
-                  <FontAwesomeIcon icon={faMapMarkerAlt} />
-                </div>
-                <div>
-                  <h4>Location</h4>
-                  <p>123 Financial District, New York, NY 10005</p>
-                </div>
-              </div>
-              
-              <div className="contact-item">
-                <div className="contact-icon">
-                  <FontAwesomeIcon icon={faPhone} />
-                </div>
-                <div>
-                  <h4>Phone</h4>
-                  <p>+1 (555) 123-4567</p>
-                </div>
-              </div>
-              
-              <div className="contact-item">
-                <div className="contact-icon">
-                  <FontAwesomeIcon icon={faEnvelope} />
-                </div>
-                <div>
-                  <h4>Email</h4>
-                  <p>info@dummycompany.com</p>
-                </div>
-              </div>
-            </div>
+            <h3>Get In Touch</h3>
+            <p>Fill up the form and our team will get back to you as soon as possible.</p>
             
             <div className="social-links">
               <a href="https://twitter.com/quantumanalytics" target="_blank" rel="noopener noreferrer" className="social-link">

@@ -152,27 +152,7 @@ const Hero = () => {
               </a>
             </motion.div>
             
-            <motion.div 
-              className="hero-stats"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6, duration: 0.7 }}
-            >
-              <div className="stat-item">
-                <span className="stat-number">$1B+</span>
-                <span className="stat-label">Assets Under Management</span>
-              </div>
-              <div className="stat-divider"></div>
-              <div className="stat-item">
-                <span className="stat-number">99.9%</span>
-                <span className="stat-label">Uptime</span>
-              </div>
-              <div className="stat-divider"></div>
-              <div className="stat-item">
-                <span className="stat-number">50+</span>
-                <span className="stat-label">Global Clients</span>
-              </div>
-            </motion.div>
+
           </motion.div>
           
           <motion.div 

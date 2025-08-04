@@ -2,33 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './About.css';
 
-// Team member data with Pexels image URLs
-const teamMembers = [
-  {
-    id: 1,
-    name: 'Sarah Johnson',
-    role: 'CEO & Co-Founder',
-    image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=2'
-  },
-  {
-    id: 2,
-    name: 'Michael Chen',
-    role: 'CTO',
-    image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=2'
-  },
-  {
-    id: 3,
-    name: 'Emily Rodriguez',
-    role: 'Head of Research',
-    image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=2'
-  },
-  {
-    id: 4,
-    name: 'David Kim',
-    role: 'Lead Developer',
-    image: 'https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=2'
-  }
-];
 
 const About = () => {
   return (
@@ -72,24 +45,7 @@ const About = () => {
           </div>
         </div>
         
-        <div className="team-section">
-          <h3>Meet Our Leadership</h3>
-          <div className="team-grid">
-            {teamMembers.map((member) => (
-              <div key={member.id} className="team-member">
-                <div className="team-member-image">
-                  <img 
-                    src={member.image} 
-                    alt={member.name} 
-                    loading="lazy"
-                  />
-                </div>
-                <h4>{member.name}</h4>
-                <p className="role">{member.role}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+
       </div>
     </motion.section>
   );
